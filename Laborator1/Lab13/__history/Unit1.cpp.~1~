@@ -1,0 +1,65 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <dos.h>
+#include <stdio.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+int x = 0;
+struct date d;
+struct time t;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+	Timer1->Enabled=true;
+	getdate(&d);
+	gettime(&t);
+	char buf[40];
+
+	snprintf ( buf, 40, "%d-%d-%d %d:%d:%d", d.da_day,d.da_mon,d.da_year,t.ti_hour,t.ti_min,t.ti_sec);
+	Edit1->Text=(AnsiString)buf;
+
+	Start->Enabled=true;
+	Stop->Enabled=false;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+
+	getdate(&d);
+	gettime(&t);
+	char buff[40];
+
+	snprintf ( buff, 40, "%d-%d-%d %d:%d:%d", d.da_day,d.da_mon,d.da_year,t.ti_hour,t.ti_min,t.ti_sec);
+	Edit1->Text=(AnsiString)buff;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ExitClick(TObject *Sender)
+{
+	Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::StartClick(TObject *Sender)
+{
+	Start->Enabled=false;
+	Stop->Enabled=true;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::StopClick(TObject *Sender)
+{
+	Start->Enabled=true;
+	Stop->Enabled=false;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Timer2Timer(TObject *Sender)
+{
+   x = rand();
+
+}
+//---------------------------------------------------------------------------
