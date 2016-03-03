@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.674,C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.699,D:\IT\UTM\LabAn2.5\MIDPS\2\Lab_1\ex1\Project1.cbproj=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.641,=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.699,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1.cbproj=D:\IT\UTM\LabAn2.5\MIDPS\2\Lab_1\ex1\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.103,C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.674,C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.674,C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.871,C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.674,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.dfm=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.674,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.h=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.674,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Lab11.cpp=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.871,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1PCH1.h=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.674,=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,D:\IT\UTM\LabAn2.5\MIDPS\Lab11\Project1.cbproj=C:\Users\Dan\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
   </Transactions>
 </BorlandProject>
