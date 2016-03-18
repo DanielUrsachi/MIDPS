@@ -1,0 +1,2 @@
+# MIDPS
+Studierea platformei GitHub
