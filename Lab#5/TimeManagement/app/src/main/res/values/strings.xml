@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TimeManagement</string>
+
+    <string-array name="arr">
+        <item>1</item>
+        <item>2</item>
+        <item>30</item>
+        <item>35</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="arr2">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+
+    </string-array>
+
+    <string-array name="arr3">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="t0">Set your pomodoro</string>
+    <string name="t1">Durata intervalului de lucru</string>
+    <string name="t2">Durata intervalului de odihna</string>
+    <string name="t3">Numarul de cicluri</string>
+
+    <string name="b">Go!</string>
+    <string name="b2">Resetare Regim</string>
+
+
+    <string name="tt">00</string>
+    <string name="tt2"></string>
+    <string name="it">00</string>
+
+
+
+
+
+
+</resources>
